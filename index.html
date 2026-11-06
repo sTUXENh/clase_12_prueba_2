@@ -1,0 +1,807 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ranking QS Univesities</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"/>
+        <style>
+            :root {
+                --color-bg: #fafafa;
+                --color-bg-nota: hsl(30, 5%, 85%);
+                --color-text: rgb(60, 60, 60);
+                --color-text-dark: rgb(30, 30, 30);
+                --color-text-light: rgba(90, 90, 90, 1);
+                --color-border: silver;
+                --font-sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+            }
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: var(--font-serif);
+                color: var(--color-text);
+                background: var(--color-bg);
+                margin: 0 auto;
+                padding: 1.5rem;
+                line-height: 1.6;
+                font-size: 1.2rem;
+            }
+
+            a {
+                color: var(--color-text-dark);
+                text-decoration: underline;
+                text-decoration-style: dotted;
+                text-underline-offset: 3px;
+                transition: all ease 0.5s;
+            }
+
+            a:hover {
+                text-decoration-style: solid;
+            }
+
+            p {
+                margin-bottom: 1rem;
+            }
+
+            em {
+                font-weight: 600;
+                font-style: normal;
+            }
+
+            abbr {
+                font-size: 90%;
+                text-decoration: none;
+                cursor: help;
+            }
+
+            ul,
+            ol {
+                list-style-position: inside;
+            }
+
+            ul li,
+            ol li {
+                margin-bottom: 0.5rem;
+            }
+
+            .container {
+                margin: 0 auto;
+                width: 90%;
+                max-width: 700px;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: var(--font-sans);
+                line-height: 1.2;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-weight: 700;
+            }
+
+            h5,
+            h6 {
+                font-weight: 400;
+                text-align: center;
+                color: var(--color-text-light);
+            }
+
+            h1 {
+                font-size: calc(1.5rem + 2.5vw);
+                text-align: center;
+                margin-top: 10vh;
+            }
+
+            h1:before {
+                content: "";
+                display: block;
+                width: calc(1.5rem + 5vw);
+                height: calc(1.5rem + 5vw);
+                margin: 0 auto 1rem auto;
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/></svg>');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            h2 {
+                font-size: calc(1.25rem + 1.25vw);
+                text-align: center;
+                margin-bottom: 5vh;
+            }
+
+            h3 {
+                font-size: calc(1rem + 0.75vw);
+                margin: 2rem 0 0.5rem 0;
+                line-height: 1;
+                color: dimgray;
+            }
+
+            h3#universidades,
+            h3#escuelas,
+            h3#intercambios {
+                text-indent: calc(1rem + 1vw);
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="dimgray" class="bi bi-globe-americas" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/></svg>');
+                background-repeat: no-repeat;
+                background-size: calc(1rem + 0.5vw);
+            }
+
+            h4 {
+                font-size: calc(1rem + 0.25vw);
+                margin: 1.25rem 0 0.75rem 0;
+                line-height: 1;
+            }
+
+            h5 {
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem;
+            }
+
+            h5 a {
+                font-weight: 600;
+                color: var(--color-text-dark);
+                text-decoration: none;
+            }
+
+            h5 a:hover {
+                text-decoration: underline;
+                text-decoration-style: dotted;
+            }
+
+            h6 {
+                font-size: 0.8rem;
+                margin-bottom: 3rem;
+                letter-spacing: 0.01rem;
+            }
+
+            hr{
+                margin-top:2rem;
+                border:2px solid #ddd;
+            }
+
+            div.container > p:nth-child(1) {
+                font-size: 120%;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: calc(100% + 1.5rem);
+                margin: 0 -0.75rem 2.5rem -0.75rem;
+                font-family: var(--font-sans);
+                font-size: 85%;
+                font-weight: 300;
+            }
+
+            tr,
+            tr:hover {
+                transition: background ease 0.4s;
+            }
+
+            tbody tr:hover {
+                background: rgba(255, 255, 255, 0.5);
+            }
+
+            th {
+                text-align: left;
+                font-family: var(--font-sans);
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                font-size: 90%;
+                font-weight: 600;
+            }
+
+            th,
+            td {
+                border-bottom: 1px solid var(--color-border);
+                padding: 0.4rem 0.8rem;
+            }
+
+            table th:nth-child(1),
+            table td:nth-child(1) {
+                text-align: center;
+                padding: 0.4rem 0.2rem;
+            }
+
+            table:first-of-type th:nth-child(3), table:first-of-type th:nth-child(4), table:first-of-type td:nth-child(3), table:first-of-type td:nth-child(4){
+                text-align: center;
+            }
+
+            td span {
+                font-size: 90%;
+                color: rgba(0, 0, 0, 0.5);
+            }
+
+            /* --- Otros elementos --- */
+            object {
+                display: block;
+                margin: 1rem -1rem;
+                width: calc(100% + 2rem);
+                height: auto;
+                aspect-ratio: 880 / 580; /* debe coincidir con el viewBox de viz.svg */
+            }
+
+            svg.grafico {
+                display: block;
+                margin: 1rem -1rem 3rem -1rem;
+                width: calc(100% + 2rem);
+                height: auto;
+                aspect-ratio: 880 / 580;
+            }
+
+            canvas {
+                margin-bottom: 3rem;
+                margin-right: 1rem;
+            }
+
+            .nota {
+                background: var(--color-bg-nota);
+                border-left: 3px solid var(--color-border);
+                padding: 0.7rem 0.5rem;
+                padding-left: 0.75rem;
+                font-size: 0.95rem;
+                margin: 2rem -0.5rem;
+                line-height: 1.3;
+            }
+
+            .nota span {
+                font-weight: 700;
+            }
+
+            dl {
+                font-family: var(--font-sans);
+                font-size: 80%;
+                letter-spacing: 0.025rem;
+                margin-bottom: 10vh;
+            }
+
+            dl dt {
+                font-weight: 700;
+            }
+
+            dl dd {
+                font-size: 90%;
+                color: var(--color-text-light);
+                margin-top: 0.25rem;
+            }
+
+            dl dd em {
+                font-style: normal;
+                font-weight: 700;
+                color: var(--color-text-light);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Ranking <abbr title="Quacquarelli Symonds">QS</abbr></h1>
+
+            <h2>Las mejores universidades del mundo y las 100 mejores escuelas de Arte y Diseño</h2>
+
+            <h5>Por <a href="https://github.com/sTUXENh">Santiago Tuxen-Bang</a></h5>
+
+            <h6><time datetime="2026-11-06T17:00-03:00">Publicado el viernes 6 de noviembre de 2026 &nbsp;&nbsp;&nbsp; 17:00 h (GMT-3)</time></h6>
+
+            <p>El <em>Ranking <abbr title="Quacquarelli Symonds">QS</abbr></em> es un sistema de clasificación académica desarrollado por <em>Quacquarelli Symonds</em>. Nació en 2004, en alianza con <em>Times Higher Education</em>, bajo el nombre <em><abbr title="Times Higher Education - Quacquarelli Symonds">THE-QS</abbr> World University Rankings</em>. Tras la separación de ambas entidades en 2009 adoptó su estructura actual, que tiene dos vertientes: <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings</em>, centrada en el desempeño institucional general, y <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em>, orientada a la evaluación académica por disciplinas.</p>
+
+            <p>La edición vigente del ranking institucional se publicó en junio de 2026. <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener">Evaluó y posicionó 1.504 instituciones de educación superior de todo el mundo, 17 de ellas chilenas</a>.</p>
+
+            <p>La edición vigente del ranking por disciplina se publicó en marzo de 2026. <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener">En Arte y Diseño evaluó y posicionó 302 instituciones, 3 de ellas chilenas</a>.
+            </p>
+
+            <hr/>
+
+            <h3 id="universidades">Las mejores universidades del mundo según <abbr title="Quacquarelli Symonds">QS</abbr></h3>
+
+            <p>En el ranking institucional, la Pontificia Universidad Católica de Chile (puesto 119) y la Universidad de Chile (puesto 185) figuran entre las cinco mejores de Hispanoamérica. Con 17 instituciones entre las 1.504 evaluadas, Chile ocupa además el quinto lugar de América en número de instituciones representadas. Estos resultados se miden, entre otros indicadores, por prestigio académico, valoración de los empleadores, cantidad de docentes por estudiante e impacto de la investigación. Son fruto de políticas públicas que hoy enfrentan la perspectiva de recortes presupuestarios. <strong>Esto demuestra el nivel de importancia que genera Chile como país con instituciones dedicadas al arte y diseño, no solo en latinoamerica, sino a nivel mundial. </strong></p>
+
+            <h4>América, Europa y otros continentes</h4>
+
+            <p>El siguiente gráfico muestra cómo se distribuyen, por continente y país, las 100 mejores universidades del mundo. <strong>Segun la QS Worlds University Rankings entre los años 2026 y 2027.</strong></p>
+
+            <object data="viz.svg" type="image/svg+xml">Tu navegador no soporta SVG</object>
+
+            <p>Con el puesto 84, la Universidad de Buenos Aires (<abbr title="Universidad de Buenos Aires">UBA</abbr>) es la única institución hispanoamericana dentro del top 100 mundial. Entre las 100 y las 200 mejores le siguen la Pontificia Universidad Católica de Chile (119), la Universidad Nacional Autónoma de México (145), la Universidad de Chile (185) y el Tecnológico de Monterrey (188).
+            </p>
+
+            <h4>Chile en América</h4>
+
+            <p>El continente americano reúne 322 de las 1.504 instituciones consideradas en el ranking. Su distribución por país es la siguiente:</p>
+
+            <canvas id="identidad"></canvas>
+
+            <p>Los cinco países con más instituciones son Estados Unidos (184), Canadá (30), Brasil (22), México (18) y Chile (17).</p>
+
+            <h4>Las universidades chilenas con escuelas de Arte y Diseño</h4>
+
+            <p>De las 17 universidades chilenas del ranking, 13 ofrecen Diseño y 6 de ellas ofrecen también Arte.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">Diseño</th>
+                        <th scope="col">Arte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">119</th>
+                        <td>Pontificia Universidad Católica de Chile (<abbr>PUC</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◼︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">185</th>
+                        <td>Universidad de Chile (<abbr>UCh</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◼</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">551</th>
+                        <td>Universidad de Santiago de Chile (<abbr>USACH</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">655</th>
+                        <td>Universidad de Concepción</td>
+                        <td>◻︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">662</th>
+                        <td>Universidad Adolfo Ibáñez (<abbr>UAI</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">851-900</th>
+                        <td>Pontificia Universidad Católica de Valparaíso (<abbr>PUCV</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◼︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">901-950</th>
+                        <td>Universidad de los Andes</td>
+                        <td>◻︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1001-1200</th>
+                        <td>Universidad Andrés Bello (<abbr>UNAB</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◼︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1001-1200</th>
+                        <td>Universidad Austral de Chile (<abbr>UACh</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◼︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1001-1200</th>
+                        <td>Universidad Técnica Federico Santa María (<abbr>UTFSM</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad de la Frontera (<abbr>UFRO</abbr>)</td>
+                        <td>◻︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad de Talca</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad del Desarrollo (<abbr>UDD</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad Diego Portales (<abbr>UDP</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◼︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1401+</th>
+                        <td>Universidad Católica del Norte</td>
+                        <td>◻︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1401+</th>
+                        <td>Universidad de Tarapacá (<abbr>UTA</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1401+</th>
+                        <td>Universidad de Valparaíso (<abbr>UV</abbr>)</td>
+                        <td>◼︎</td>
+                        <td>◻︎</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                En el ranking por disciplina de Arte y Diseño figuran solo tres universidades chilenas: la
+                <abbr>PUC</abbr>, la <abbr>UCh</abbr> y la <abbr>UDD</abbr>. De ellas, la <abbr>UDD</abbr> imparte
+                Diseño pero no Arte. El siguiente gráfico permite comparar a las tres en cinco dimensiones del ranking
+                institucional.
+            </p>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 580" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .grid  { fill: none; stroke: lightgray; }
+    .axis  { stroke: #000; }
+    .label { font-size: 12px; text-anchor: middle; dominant-baseline: middle; }
+    .tick  { font-size: 10px; text-anchor: end; dominant-baseline: middle; }
+    .area  { fill-opacity: .1; stroke-width: 1; transition: all ease .4s;}
+    .area:hover { fill-opacity: .3; transition: all ease .4s; }
+    .legend-text { font-size: 10px; }
+    .legend-title { font-size: 12px; font-weight: bold; }
+  </style>
+  <g transform="translate(300 300)">
+    <g class="grid">
+      <circle r="0"/>
+      <circle r="24"/>
+      <circle r="48"/>
+      <circle r="72"/>
+      <circle r="96"/>
+      <circle r="120"/>
+      <circle r="144"/>
+      <circle r="168"/>
+      <circle r="192"/>
+      <circle r="216"/>
+      <circle r="240"/>
+    </g>
+    <g class="axis">
+      <line x2="0.0" y2="-240.0"/>
+      <line x2="228.3" y2="-74.2"/>
+      <line x2="141.1" y2="194.2"/>
+      <line x2="-141.1" y2="194.2"/>
+      <line x2="-228.3" y2="-74.2"/>
+    </g>
+    <g>
+      <text class="label" x="0.0" y="-250.0">Staff with PhD</text>
+      <text class="label" x="237.8" y="-77.3">Academic Reputation</text>
+      <text class="label" x="146.9" y="202.3">International Research Network</text>
+      <text class="label" x="-146.9" y="202.3">Papers Per Faculty</text>
+      <text class="label" x="-237.8" y="-77.3">Citations per Paper</text>
+    </g>
+    <g class="tick">
+      <path class="axis" fill="none" d="M-6-240H0V0H-6"/>
+      <text x="-9" y="0">0</text>
+      <text x="-9" y="-24">10</text>
+      <text x="-9" y="-48">20</text>
+      <text x="-9" y="-72">30</text>
+      <text x="-9" y="-96">40</text>
+      <text x="-9" y="-120">50</text>
+      <text x="-9" y="-144">60</text>
+      <text x="-9" y="-168">70</text>
+      <text x="-9" y="-192">80</text>
+      <text x="-9" y="-216">90</text>
+      <text x="-9" y="-240">100</text>
+    </g>
+    <g fill="#FEC60D" stroke="#FEC60D">
+      <polygon class="area" points="0.0,-236.0 228.3,-74.2 141.1,194.2 -137.5,189.3 -176.9,-57.5"/>
+      <circle cx="0.0" cy="-236.0" r="1.5" stroke="none"/>
+      <circle cx="228.3" cy="-74.2" r="1.5" stroke="none"/>
+      <circle cx="141.1" cy="194.2" r="1.5" stroke="none"/>
+      <circle cx="-137.5" cy="189.3" r="1.5" stroke="none"/>
+      <circle cx="-176.9" cy="-57.5" r="1.5" stroke="none"/>
+    </g>
+    <g fill="#1F5592" stroke="#1F5592">
+      <polygon class="area" points="0.0,-173.0 228.3,-74.2 141.1,194.2 -141.1,194.2 -175.9,-57.2"/>
+      <circle cx="0.0" cy="-173.0" r="1.5" stroke="none"/>
+      <circle cx="228.3" cy="-74.2" r="1.5" stroke="none"/>
+      <circle cx="141.1" cy="194.2" r="1.5" stroke="none"/>
+      <circle cx="-141.1" cy="194.2" r="1.5" stroke="none"/>
+      <circle cx="-175.9" cy="-57.2" r="1.5" stroke="none"/>
+    </g>
+    <g fill="#2ca02c" stroke="#2ca02c">
+      <polygon class="area" points="0.0,-153.0 205.4,-66.7 139.3,191.7 -126.4,173.9 -200.7,-65.2"/>
+      <circle cx="0.0" cy="-153.0" r="1.5" stroke="none"/>
+      <circle cx="205.4" cy="-66.7" r="1.5" stroke="none"/>
+      <circle cx="139.3" cy="191.7" r="1.5" stroke="none"/>
+      <circle cx="-126.4" cy="173.9" r="1.5" stroke="none"/>
+      <circle cx="-200.7" cy="-65.2" r="1.5" stroke="none"/>
+    </g>
+    <g fill="#d62728" stroke="#d62728">
+      <polygon class="area" points="0.0,-70.0 216.8,-70.5 138.1,190.1 -114.0,156.9 -139.8,-45.4"/>
+      <circle cx="0.0" cy="-70.0" r="1.5" stroke="none"/>
+      <circle cx="216.8" cy="-70.5" r="1.5" stroke="none"/>
+      <circle cx="138.1" cy="190.1" r="1.5" stroke="none"/>
+      <circle cx="-114.0" cy="156.9" r="1.5" stroke="none"/>
+      <circle cx="-139.8" cy="-45.4" r="1.5" stroke="none"/>
+    </g>
+  </g>
+  <g transform="translate(605 60)">
+    <text class="legend-title">Institution Name</text>
+    <rect y="16.0" width="15" height="15" fill="#FEC60D"/>
+    <text class="legend-text" x="20" y="28.5">Pontificia Universidad Católica de Chile</text>
+    <rect y="37.25" width="15" height="15" fill="#1F5592"/>
+    <text class="legend-text" x="20" y="49.75">Universidad de Chile</text>
+    <rect y="58.5" width="15" height="15" fill="#2ca02c"/>
+    <text class="legend-text" x="20" y="71.0">Universidad de Concepción</text>
+    <rect y="79.75" width="15" height="15" fill="#d62728"/>
+    <text class="legend-text" x="20" y="92.25">Universidad de Santiago de Chile</text>
+  </g>
+</svg>
+
+            <p>La comparación de las dimensiones se visualiza la <strong>Papers per Faculty (Papers publicados por facultad), Staff with PhD (Académicos con doctorado), Academic Reputation (Reputación académica), Citations per Faculty (Citados en publicaciones de papers) y International Research Network (Busquedas internacionales por internet).</strong></p>
+
+            <hr>
+
+            <h3 id="escuelas">
+                Las 100 mejores escuelas de Arte y Diseño según
+                <abbr title="Quacquarelli Symonds">QS</abbr>
+            </h3>
+
+            <p>
+                El <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em> se rige por criterios distintos a los del ranking institucional. En Arte y Diseño no mide citas de investigación ni índice H, y se apoya solo en la reputación académica y la reputación entre empleadores. Sus críticos advierten que este enfoque abre un mayor margen de subjetividad. Chile queda con poca presencia: solo tres universidades (la <abbr>PUC</abbr>, la <abbr>UCh</abbr> y la <abbr>UDD</abbr>) figuran en la medición, con una entre las 100 mejores.
+            </p>
+
+            <h4>América</h4>
+            <p>Escuelas de Arte y Diseño de países americanos entre las 100 mejores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">País</th>
+                    </tr>
+                </thead>
+                <tbody id="america"></tbody>
+            </table>
+
+            <h4>Europa</h4>
+            <p>Escuelas de Arte y Diseño de países europeos entre las 100 mejores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">País</th>
+                    </tr>
+                </thead>
+                <tbody id="europa"></tbody>
+            </table>
+
+            <h4>Otros continentes</h4>
+            <p>Escuelas de Arte y Diseño de Asia y Oceanía entre las 100 mejores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">País</th>
+                    </tr>
+                </thead>
+                <tbody id="otros"></tbody>
+            </table>
+
+            <h3 id="intercambios">Oportunidades para estudiantes de la Universidad de Chile</h3>
+
+            <p>
+                La carrera de Diseño de la Facultad de Arquitectura y Urbanismo de la Universidad de Chile mantiene
+                convenios vigentes con instituciones que figuran entre las 100 mejores en Arte y Diseño según
+                <abbr title="Quacquarelli Symonds">QS</abbr>:
+            </p>
+
+            <ul>
+                <li>
+                    <em>Politecnico di Milano (Italia):</em> la opción europea mejor posicionada del ranking entre las
+                    instituciones con convenio.
+                </li>
+                <li>
+                    <em>Universidade de São Paulo (Brasil):</em> referente regional en la clasificación mundial de Arte
+                    y Diseño.
+                </li>
+                <li>
+                    <em>Universidad de Buenos Aires (Argentina):</em> una de las instituciones históricas más
+                    prominentes de Sudamérica.
+                </li>
+                <li>
+                    <em>Tecnológico de Monterrey (México):</em> presente en el ranking de Arte y Diseño.
+                </li>
+                <li>
+                    <em>Universidad Nacional Autónoma de México (México):</em> una de las universidades más grandes y
+                    reconocidas de la región en artes y humanidades.
+                </li>
+            </ul>
+
+            <div class="nota">
+                <span>Nota:</span> La disponibilidad de cupos, los requisitos de idioma y los llamados a postulación
+                deben verificarse cada año, al igual que la posición de cada institución en el Ranking
+                <abbr title="Quacquarelli Symonds">QS</abbr>.
+            </div>
+
+            <dl>
+                <dt>Fuentes</dt>
+                <dd>
+                    <em>Datos:</em> Tomados el 21 de septiembre de 2026 desde
+                    <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener">QS World University Rankings</a> y <a href="https://www.topuniversities.com/university-subject-rankings/art-design" target="_blank" rel="noopener">QS World University Rankings by Subject: Art &amp; Design</a>.
+                </dd>
+                <dd>
+                    <em>Procesamiento:</em> Datos estructurados en formato JSON e incorporados a la página mediante
+                    carga asíncrona.
+                </dd>
+                <dd>
+                    <em>Contexto:</em> Proyecto desarrollado como ejercicio práctico para la asignatura
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank" rel="noopener"
+                        >Diseño y Visualización de Información</a
+                    >.
+                </dd>
+            </dl>
+        </div>
+
+        <!-- Lo necesario para el gráfico interactivo en SVG -->
+        <script>
+            function alternar(id, item) {
+                document.getElementById(id).classList.toggle("nones");
+                item.classList.toggle("apagado");
+            }
+        </script>
+
+        <!-- Lo necesario para el gráfico en el canvas -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            new Chart(document.getElementById("identidad"), {
+                type: "bar",
+                data: {
+                    labels: [
+                        "Argentina",
+                        "Australia",
+                        "Austria",
+                        "Belgium",
+                        "Brazil",
+                        "Canada",
+                        "Chile",
+                        "China (Mainland)",
+                        "Colombia",
+                        "Czech Republic",
+                        "Denmark",
+                        "Estonia",
+                        "Finland",
+                        "France",
+                        "Germany",
+                        "Hong Kong",
+                        "India",
+                        "Ireland",
+                        "Italy",
+                        "Japan",
+                        "Malaysia",
+                        "Mexico",
+                        "Netherlands",
+                        "Saudi Arabia",
+                        "Singapore",
+                        "South Korea",
+                        "Sweden",
+                        "Switzerland",
+                        "Taiwan",
+                        "Thailand",
+                        "United Kingdom",
+                        "United States",
+                        "Vietnam",
+                    ],
+                    datasets: [
+                        {
+                            label: "Veces en el top 100",
+                            data: [
+                                2, 5, 2, 1, 1, 2, 1, 6, 1, 1, 1, 1, 1, 3, 2, 2, 1, 1, 6, 2, 2, 2, 4, 1, 3, 3, 3, 2, 1,
+                                1, 11, 24, 1,
+                            ],
+                            backgroundColor: "rgb(214, 214, 214)",
+                            borderWidth: 1,
+                        },
+                    ],
+                },
+                options: {
+                    indexAxis: "y",
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    aspectRatio: 1,
+                },
+            });
+        </script>
+
+        <!-- Lo necesario para rellenar las tablas con su propio JSON publicado en myJSON (el mismo que pudo usar para la evaluación pasada) -->
+        <script>
+            const tbodyAmerica = document.querySelector("#america");
+            const tbodyEuropa = document.querySelector("#europa");
+            const tbodyOtros = document.querySelector("#otros");
+
+            const ENDPOINT = "https://api.myjson.online/v1/records/305033b4-722c-4e9f-89ba-9cec2bd9d26d";
+
+            const paisesAmerica = ["Argentina", "Brazil", "Canada", "Chile", "Colombia", "Mexico", "United States"];
+            const paisesEuropa = [
+                "Austria",
+                "Belgium",
+                "Czech Republic",
+                "Denmark",
+                "Estonia",
+                "Finland",
+                "France",
+                "Germany",
+                "Ireland",
+                "Italy",
+                "Netherlands",
+                "Sweden",
+                "Switzerland",
+                "United Kingdom",
+            ];
+
+            let htmlAmerica = "";
+            let htmlEuropa = "";
+            let htmlOtros = "";
+
+            var cuenta_america = 0;
+            var cuenta_europa = 0;
+            var cuenta_otros = 0;
+
+            fetch(ENDPOINT)
+                .then((respuesta) => {
+                    if (!respuesta.ok) {
+                        throw new Error("Error HTTP: " + respuesta.status);
+                    }
+                    return respuesta.json();
+                })
+                .then((datos) => {
+                    const escuelas = datos.data;
+
+                    escuelas.forEach((e) => {
+                        const esAmericana = paisesAmerica.some((pais) => e.location.includes(pais));
+                        const esEuropea = paisesEuropa.some((pais) => e.location.includes(pais));
+
+                        const pais = e.location.split(", ").pop();
+                        const fila = `<tr><th scope="row">${e.rank}</th><td>${e.name}</td><td>${pais}</td></tr>`;
+
+                        if (esAmericana) {
+                            htmlAmerica += fila;
+                            cuenta_america = cuenta_america + 1;
+                        } else if (esEuropea) {
+                            htmlEuropa += fila;
+                            cuenta_europa = cuenta_europa + 1;
+                        } else {
+                            htmlOtros += fila;
+                            cuenta_otros = cuenta_otros + 1;
+                        }
+                    });
+
+                    tbodyAmerica.innerHTML = htmlAmerica;
+                    tbodyEuropa.innerHTML = htmlEuropa;
+                    tbodyOtros.innerHTML = htmlOtros;
+                })
+                .catch((error) => {
+                    console.error("Algo salió mal:", error);
+                });
+        </script>
+    </body>
+</html>

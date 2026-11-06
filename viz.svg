@@ -1,0 +1,2122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 805 600">
+    <rect width="805" height="600" x="0" y="0" fill="#FFFFFF" id="identidad" />
+    <g transform="translate(10,10)" id="visualization">
+        <g>
+            <rect x="0" y="3.410605131648481e-13" height="5.686274509803922" width="1" fill="black">
+                <title>null: 1</title>
+            </rect>
+            <rect x="0" y="5.686274509804263" height="5.686274509803922" width="1" fill="black">
+                <title>undefined: 1</title>
+            </rect>
+            <rect x="0" y="11.372549019608185" height="5.6862745098039245" width="1" fill="black">
+                <title>1: 1</title>
+            </rect>
+            <rect x="0" y="17.05882352941211" height="5.686274509803923" width="1" fill="black">
+                <title>2: 1</title>
+            </rect>
+            <rect x="0" y="22.745098039216032" height="5.686274509803923" width="1" fill="black">
+                <title>3: 1</title>
+            </rect>
+            <rect x="0" y="28.431372549019954" height="5.686274509803923" width="1" fill="black">
+                <title>4: 1</title>
+            </rect>
+            <rect x="0" y="34.11764705882388" height="5.686274509803923" width="1" fill="black">
+                <title>5: 1</title>
+            </rect>
+            <rect x="0" y="39.8039215686278" height="5.686274509803923" width="1" fill="black">
+                <title>6: 1</title>
+            </rect>
+            <rect x="0" y="45.49019607843172" height="5.686274509803923" width="1" fill="black">
+                <title>7: 1</title>
+            </rect>
+            <rect x="0" y="51.176470588235645" height="5.686274509803923" width="1" fill="black">
+                <title>8: 1</title>
+            </rect>
+            <rect x="0" y="56.86274509803957" height="5.686274509803923" width="1" fill="black">
+                <title>9: 1</title>
+            </rect>
+            <rect x="0" y="62.54901960784349" height="5.686274509803923" width="1" fill="black">
+                <title>10: 1</title>
+            </rect>
+            <rect x="0" y="68.23529411764741" height="5.686274509803923" width="1" fill="black">
+                <title>11: 1</title>
+            </rect>
+            <rect x="0" y="73.92156862745134" height="5.686274509803923" width="1" fill="black">
+                <title>12: 1</title>
+            </rect>
+            <rect x="0" y="79.60784313725526" height="5.686274509803923" width="1" fill="black">
+                <title>13: 1</title>
+            </rect>
+            <rect x="0" y="85.29411764705918" height="5.686274509803923" width="1" fill="black">
+                <title>14: 1</title>
+            </rect>
+            <rect x="0" y="90.9803921568631" height="5.686274509803923" width="1" fill="black">
+                <title>15: 1</title>
+            </rect>
+            <rect x="0" y="96.66666666666703" height="5.686274509803923" width="1" fill="black">
+                <title>16: 1</title>
+            </rect>
+            <rect x="0" y="102.35294117647095" height="5.686274509803923" width="1" fill="black">
+                <title>17: 1</title>
+            </rect>
+            <rect x="0" y="108.03921568627487" height="5.686274509803923" width="1" fill="black">
+                <title>18: 1</title>
+            </rect>
+            <rect x="0" y="113.7254901960788" height="5.686274509803923" width="1" fill="black">
+                <title>19: 1</title>
+            </rect>
+            <rect x="0" y="119.41176470588272" height="5.686274509803923" width="1" fill="black">
+                <title>20: 1</title>
+            </rect>
+            <rect x="0" y="125.09803921568664" height="5.686274509803894" width="1" fill="black">
+                <title>21: 1</title>
+            </rect>
+            <rect x="0" y="130.78431372549053" height="5.686274509803923" width="1" fill="black">
+                <title>22: 1</title>
+            </rect>
+            <rect x="0" y="136.47058823529446" height="5.686274509803923" width="1" fill="black">
+                <title>23: 1</title>
+            </rect>
+            <rect x="0" y="142.15686274509838" height="5.686274509803923" width="1" fill="black">
+                <title>24: 1</title>
+            </rect>
+            <rect x="0" y="147.8431372549023" height="5.686274509803923" width="1" fill="black">
+                <title>25: 1</title>
+            </rect>
+            <rect x="0" y="153.52941176470623" height="5.686274509803923" width="1" fill="black">
+                <title>26: 1</title>
+            </rect>
+            <rect x="0" y="159.21568627451015" height="5.686274509803923" width="1" fill="black">
+                <title>27: 1</title>
+            </rect>
+            <rect x="0" y="164.90196078431407" height="5.686274509803923" width="1" fill="black">
+                <title>28: 1</title>
+            </rect>
+            <rect x="0" y="170.588235294118" height="5.686274509803923" width="1" fill="black">
+                <title>29: 1</title>
+            </rect>
+            <rect x="0" y="176.27450980392192" height="5.686274509803923" width="1" fill="black">
+                <title>30: 1</title>
+            </rect>
+            <rect x="0" y="181.96078431372584" height="5.686274509803923" width="1" fill="black">
+                <title>31: 1</title>
+            </rect>
+            <rect x="0" y="187.64705882352976" height="5.686274509803923" width="1" fill="black">
+                <title>32: 1</title>
+            </rect>
+            <rect x="0" y="193.33333333333368" height="5.686274509803923" width="1" fill="black">
+                <title>33: 1</title>
+            </rect>
+            <rect x="0" y="199.0196078431376" height="5.686274509803923" width="1" fill="black">
+                <title>34: 1</title>
+            </rect>
+            <rect x="0" y="204.70588235294153" height="5.686274509803923" width="1" fill="black">
+                <title>35: 1</title>
+            </rect>
+            <rect x="0" y="210.39215686274545" height="5.686274509803923" width="1" fill="black">
+                <title>36: 1</title>
+            </rect>
+            <rect x="0" y="216.07843137254937" height="5.686274509803923" width="1" fill="black">
+                <title>37: 1</title>
+            </rect>
+            <rect x="0" y="221.7647058823533" height="5.686274509803923" width="1" fill="black">
+                <title>38: 1</title>
+            </rect>
+            <rect x="0" y="227.45098039215722" height="5.686274509803923" width="1" fill="black">
+                <title>39: 1</title>
+            </rect>
+            <rect x="0" y="233.13725490196114" height="5.686274509803923" width="1" fill="black">
+                <title>40: 1</title>
+            </rect>
+            <rect x="0" y="238.82352941176507" height="5.686274509803923" width="1" fill="black">
+                <title>41: 1</title>
+            </rect>
+            <rect x="0" y="244.509803921569" height="5.686274509803923" width="1" fill="black">
+                <title>42: 1</title>
+            </rect>
+            <rect x="0" y="250.1960784313729" height="5.686274509803923" width="1" fill="black">
+                <title>43: 1</title>
+            </rect>
+            <rect x="0" y="255.88235294117683" height="5.686274509803837" width="1" fill="black">
+                <title>44: 1</title>
+            </rect>
+            <rect x="0" y="261.56862745098067" height="5.686274509803923" width="1" fill="black">
+                <title>45: 1</title>
+            </rect>
+            <rect x="0" y="267.2549019607846" height="5.686274509803923" width="1" fill="black">
+                <title>46: 1</title>
+            </rect>
+            <rect x="0" y="272.9411764705885" height="5.686274509803923" width="1" fill="black">
+                <title>47: 1</title>
+            </rect>
+            <rect x="0" y="278.62745098039244" height="5.686274509803923" width="1" fill="black">
+                <title>48: 1</title>
+            </rect>
+            <rect x="0" y="284.31372549019636" height="5.686274509803923" width="1" fill="black">
+                <title>49: 1</title>
+            </rect>
+            <rect x="0" y="290.0000000000003" height="5.686274509803923" width="1" fill="black">
+                <title>50: 1</title>
+            </rect>
+            <rect x="0" y="295.6862745098042" height="5.686274509803923" width="1" fill="black">
+                <title>51: 1</title>
+            </rect>
+            <rect x="0" y="301.37254901960813" height="5.686274509803923" width="1" fill="black">
+                <title>52: 1</title>
+            </rect>
+            <rect x="0" y="307.05882352941205" height="5.686274509803923" width="1" fill="black">
+                <title>53: 1</title>
+            </rect>
+            <rect x="0" y="312.745098039216" height="5.686274509803923" width="1" fill="black">
+                <title>54: 1</title>
+            </rect>
+            <rect x="0" y="318.4313725490199" height="5.686274509803923" width="1" fill="black">
+                <title>55: 1</title>
+            </rect>
+            <rect x="0" y="324.1176470588238" height="5.686274509803923" width="1" fill="black">
+                <title>56: 1</title>
+            </rect>
+            <rect x="0" y="329.80392156862774" height="5.686274509803923" width="1" fill="black">
+                <title>57: 1</title>
+            </rect>
+            <rect x="0" y="335.49019607843167" height="5.686274509803923" width="1" fill="black">
+                <title>58: 1</title>
+            </rect>
+            <rect x="0" y="341.1764705882356" height="5.686274509803923" width="1" fill="black">
+                <title>59: 1</title>
+            </rect>
+            <rect x="0" y="346.8627450980395" height="5.686274509803923" width="1" fill="black">
+                <title>60: 1</title>
+            </rect>
+            <rect x="0" y="352.54901960784343" height="5.686274509803923" width="1" fill="black">
+                <title>61: 1</title>
+            </rect>
+            <rect x="0" y="358.23529411764736" height="5.686274509803923" width="1" fill="black">
+                <title>62: 1</title>
+            </rect>
+            <rect x="0" y="363.9215686274513" height="5.686274509803923" width="1" fill="black">
+                <title>63: 1</title>
+            </rect>
+            <rect x="0" y="369.6078431372552" height="5.686274509803923" width="1" fill="black">
+                <title>64: 1</title>
+            </rect>
+            <rect x="0" y="375.2941176470591" height="5.686274509803923" width="1" fill="black">
+                <title>65: 1</title>
+            </rect>
+            <rect x="0" y="380.98039215686305" height="5.686274509803923" width="1" fill="black">
+                <title>66: 1</title>
+            </rect>
+            <rect x="0" y="386.66666666666697" height="5.686274509803923" width="1" fill="black">
+                <title>67: 1</title>
+            </rect>
+            <rect x="0" y="392.3529411764709" height="5.686274509803923" width="1" fill="black">
+                <title>68: 1</title>
+            </rect>
+            <rect x="0" y="398.0392156862748" height="5.686274509803923" width="1" fill="black">
+                <title>69: 1</title>
+            </rect>
+            <rect x="0" y="403.72549019607874" height="5.686274509803923" width="1" fill="black">
+                <title>70: 1</title>
+            </rect>
+            <rect x="0" y="409.41176470588266" height="5.686274509803923" width="1" fill="black">
+                <title>71: 1</title>
+            </rect>
+            <rect x="0" y="415.0980392156866" height="5.686274509803923" width="1" fill="black">
+                <title>72: 1</title>
+            </rect>
+            <rect x="0" y="420.7843137254905" height="5.686274509803923" width="1" fill="black">
+                <title>73: 1</title>
+            </rect>
+            <rect x="0" y="426.47058823529443" height="5.686274509803923" width="1" fill="black">
+                <title>74: 1</title>
+            </rect>
+            <rect x="0" y="432.15686274509835" height="5.686274509803923" width="1" fill="black">
+                <title>75: 1</title>
+            </rect>
+            <rect x="0" y="437.8431372549023" height="5.686274509803923" width="1" fill="black">
+                <title>76: 1</title>
+            </rect>
+            <rect x="0" y="443.5294117647062" height="5.686274509803923" width="1" fill="black">
+                <title>77: 1</title>
+            </rect>
+            <rect x="0" y="449.2156862745101" height="5.686274509803923" width="1" fill="black">
+                <title>78: 1</title>
+            </rect>
+            <rect x="0" y="454.90196078431404" height="5.686274509803923" width="1" fill="black">
+                <title>79: 1</title>
+            </rect>
+            <rect x="0" y="460.58823529411796" height="5.686274509803923" width="1" fill="black">
+                <title>80: 1</title>
+            </rect>
+            <rect x="0" y="466.2745098039219" height="5.686274509803923" width="1" fill="black">
+                <title>81: 1</title>
+            </rect>
+            <rect x="0" y="471.9607843137258" height="5.686274509803923" width="1" fill="black">
+                <title>82: 1</title>
+            </rect>
+            <rect x="0" y="477.64705882352973" height="5.686274509803923" width="1" fill="black">
+                <title>83: 1</title>
+            </rect>
+            <rect x="0" y="483.33333333333366" height="5.686274509803923" width="1" fill="black">
+                <title>84: 1</title>
+            </rect>
+            <rect x="0" y="489.0196078431376" height="5.686274509803923" width="1" fill="black">
+                <title>85: 1</title>
+            </rect>
+            <rect x="0" y="494.7058823529415" height="5.686274509803923" width="1" fill="black">
+                <title>86: 1</title>
+            </rect>
+            <rect x="0" y="500.3921568627454" height="5.686274509803923" width="1" fill="black">
+                <title>87: 1</title>
+            </rect>
+            <rect x="0" y="506.07843137254935" height="5.686274509803923" width="1" fill="black">
+                <title>88: 1</title>
+            </rect>
+            <rect x="0" y="511.76470588235327" height="5.686274509803866" width="1" fill="black">
+                <title>89: 1</title>
+            </rect>
+            <rect x="0" y="517.4509803921571" height="5.686274509803866" width="1" fill="black">
+                <title>90: 1</title>
+            </rect>
+            <rect x="0" y="523.137254901961" height="5.686274509803866" width="1" fill="black">
+                <title>91: 1</title>
+            </rect>
+            <rect x="0" y="528.8235294117649" height="5.686274509803866" width="1" fill="black">
+                <title>92: 1</title>
+            </rect>
+            <rect x="0" y="534.5098039215687" height="5.686274509803866" width="1" fill="black">
+                <title>93: 1</title>
+            </rect>
+            <rect x="0" y="540.1960784313726" height="5.686274509803866" width="1" fill="black">
+                <title>94: 1</title>
+            </rect>
+            <rect x="0" y="545.8823529411765" height="5.686274509803866" width="1" fill="black">
+                <title>95: 1</title>
+            </rect>
+            <rect x="0" y="551.5686274509803" height="5.686274509803866" width="1" fill="black">
+                <title>96: 1</title>
+            </rect>
+            <rect x="0" y="557.2549019607842" height="5.686274509803866" width="1" fill="black">
+                <title>97: 1</title>
+            </rect>
+            <rect x="0" y="562.9411764705881" height="5.686274509803866" width="1" fill="black">
+                <title>98: 1</title>
+            </rect>
+            <rect x="0" y="568.6274509803919" height="5.686274509803866" width="1" fill="black">
+                <title>99: 1</title>
+            </rect>
+            <rect x="0" y="574.3137254901958" height="5.686274509803866" width="1" fill="black">
+                <title>100: 1</title>
+            </rect>
+            <rect x="784" y="0" height="11.372549019607844" width="1" fill="black"><title>: 2</title></rect>
+            <rect x="784" y="11.372549019607844" height="56.86274509803923" width="1" fill="black">
+                <title>Oceania: 10</title>
+            </rect>
+            <rect x="784" y="68.23529411764707" height="136.4705882352941" width="1" fill="black">
+                <title>Asia: 24</title>
+            </rect>
+            <rect x="784" y="204.70588235294116" height="170.58823529411762" width="1" fill="black">
+                <title>Americas: 30</title>
+            </rect>
+            <rect x="784" y="375.2941176470588" height="204.70588235294122" width="1" fill="black">
+                <title>Europe: 36</title>
+            </rect>
+        </g>
+        <g fill="none" stroke-opacity="0.6">
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,2.843137254902302C392.5,2.843137254902302,392.5,2.843137254901961,784,2.843137254901961"
+                    stroke="rgb(90, 85, 165)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>null → : 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,8.529411764706223C392.5,8.529411764706223,392.5,8.529411764705882,784,8.529411764705882"
+                    stroke="rgb(94, 79, 162)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>undefined → : 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,14.215686274510146C392.5,14.215686274510146,392.5,207.54901960784312,784,207.54901960784312"
+                    stroke="rgb(158, 1, 66)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>1 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,19.90196078431407C392.5,19.90196078431407,392.5,378.1372549019607,784,378.1372549019607"
+                    stroke="rgb(217, 70, 75)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>2 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,25.588235294117993C392.5,25.588235294117993,392.5,213.23529411764704,784,213.23529411764704"
+                    stroke="rgb(245, 128, 78)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>3 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,31.274509803921916C392.5,31.274509803921916,392.5,383.82352941176464,784,383.82352941176464"
+                    stroke="rgb(253, 192, 113)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>4 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,36.96078431372584C392.5,36.96078431372584,392.5,218.92156862745097,784,218.92156862745097"
+                    stroke="rgb(254, 237, 162)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>5 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,42.64705882352976C392.5,42.64705882352976,392.5,389.50980392156856,784,389.50980392156856"
+                    stroke="rgb(240, 249, 170)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>6 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,48.333333333333684C392.5,48.333333333333684,392.5,224.6078431372549,784,224.6078431372549"
+                    stroke="rgb(192, 230, 160)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>7 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,54.01960784313761C392.5,54.01960784313761,392.5,395.1960784313725,784,395.1960784313725"
+                    stroke="rgb(122, 200, 166)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>8 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,59.70588235294153C392.5,59.70588235294153,392.5,400.8823529411764,784,400.8823529411764"
+                    stroke="rgb(68, 147, 180)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>9 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,65.39215686274545C392.5,65.39215686274545,392.5,71.07843137254903,784,71.07843137254903"
+                    stroke="rgb(163, 7, 67)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>10 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,71.07843137254937C392.5,71.07843137254937,392.5,76.76470588235296,784,76.76470588235296"
+                    stroke="rgb(174, 19, 70)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>11 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,76.7647058823533C392.5,76.7647058823533,392.5,82.45098039215688,784,82.45098039215688"
+                    stroke="rgb(180, 25, 71)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>12 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,82.45098039215722C392.5,82.45098039215722,392.5,88.1372549019608,784,88.1372549019608"
+                    stroke="rgb(185, 31, 72)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>13 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,88.13725490196114C392.5,88.13725490196114,392.5,93.82352941176472,784,93.82352941176472"
+                    stroke="rgb(190, 37, 73)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>14 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,93.82352941176507C392.5,93.82352941176507,392.5,230.2941176470588,784,230.2941176470588"
+                    stroke="rgb(195, 43, 74)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>15 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,99.50980392156899C392.5,99.50980392156899,392.5,235.98039215686273,784,235.98039215686273"
+                    stroke="rgb(200, 48, 74)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>16 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,105.19607843137291C392.5,105.19607843137291,392.5,241.66666666666666,784,241.66666666666666"
+                    stroke="rgb(204, 54, 75)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>17 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,110.88235294117683C392.5,110.88235294117683,392.5,99.50980392156865,784,99.50980392156865"
+                    stroke="rgb(209, 59, 75)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>18 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,116.56862745098076C392.5,116.56862745098076,392.5,14.215686274509805,784,14.215686274509805"
+                    stroke="rgb(213, 64, 75)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>19 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,122.25490196078468C392.5,122.25490196078468,392.5,247.35294117647058,784,247.35294117647058"
+                    stroke="rgb(220, 75, 74)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>20 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,127.9411764705886C392.5,127.9411764705886,392.5,253.0392156862745,784,253.0392156862745"
+                    stroke="rgb(224, 80, 74)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>21 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,133.6274509803925C392.5,133.6274509803925,392.5,406.56862745098033,784,406.56862745098033"
+                    stroke="rgb(227, 85, 73)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>22 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,139.31372549019642C392.5,139.31372549019642,392.5,19.901960784313726,784,19.901960784313726"
+                    stroke="rgb(230, 90, 73)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>23 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,145.00000000000034C392.5,145.00000000000034,392.5,258.7254901960784,784,258.7254901960784"
+                    stroke="rgb(233, 95, 73)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>24 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,150.68627450980426C392.5,150.68627450980426,392.5,412.25490196078425,784,412.25490196078425"
+                    stroke="rgb(235, 100, 73)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>25 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,156.3725490196082C392.5,156.3725490196082,392.5,105.19607843137257,784,105.19607843137257"
+                    stroke="rgb(238, 105, 73)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>26 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,162.0588235294121C392.5,162.0588235294121,392.5,264.4117647058823,784,264.4117647058823"
+                    stroke="rgb(240, 111, 74)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>27 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,167.74509803921603C392.5,167.74509803921603,392.5,25.58823529411765,784,25.58823529411765"
+                    stroke="rgb(242, 116, 75)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>28 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,173.43137254901995C392.5,173.43137254901995,392.5,31.27450980392157,784,31.27450980392157"
+                    stroke="rgb(244, 122, 76)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>29 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,179.11764705882388C392.5,179.11764705882388,392.5,270.09803921568624,784,270.09803921568624"
+                    stroke="rgb(246, 134, 80)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>30 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,184.8039215686278C392.5,184.8039215686278,392.5,36.96078431372549,784,36.96078431372549"
+                    stroke="rgb(248, 140, 82)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>31 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,190.49019607843172C392.5,190.49019607843172,392.5,275.78431372549016,784,275.78431372549016"
+                    stroke="rgb(249, 146, 85)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>32 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,196.17647058823565C392.5,196.17647058823565,392.5,110.88235294117649,784,110.88235294117649"
+                    stroke="rgb(250, 152, 88)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>33 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,201.86274509803957C392.5,201.86274509803957,392.5,417.9411764705882,784,417.9411764705882"
+                    stroke="rgb(250, 158, 91)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>34 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,207.5490196078435C392.5,207.5490196078435,392.5,423.6274509803921,784,423.6274509803921"
+                    stroke="rgb(251, 164, 94)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>35 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,213.2352941176474C392.5,213.2352941176474,392.5,116.56862745098042,784,116.56862745098042"
+                    stroke="rgb(252, 170, 98)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>36 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,218.92156862745134C392.5,218.92156862745134,392.5,429.313725490196,784,429.313725490196"
+                    stroke="rgb(252, 175, 102)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>37 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,224.60784313725526C392.5,224.60784313725526,392.5,122.25490196078434,784,122.25490196078434"
+                    stroke="rgb(252, 181, 105)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>38 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,230.29411764705918C392.5,230.29411764705918,392.5,127.94117647058826,784,127.94117647058826"
+                    stroke="rgb(253, 186, 109)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>39 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,235.9803921568631C392.5,235.9803921568631,392.5,434.99999999999994,784,434.99999999999994"
+                    stroke="rgb(253, 197, 117)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>40 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,241.66666666666703C392.5,241.66666666666703,392.5,42.64705882352941,784,42.64705882352941"
+                    stroke="rgb(253, 201, 121)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>41 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,247.35294117647095C392.5,247.35294117647095,392.5,133.62745098039218,784,133.62745098039218"
+                    stroke="rgb(254, 206, 125)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>42 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,253.03921568627487C392.5,253.03921568627487,392.5,281.4705882352941,784,281.4705882352941"
+                    stroke="rgb(254, 211, 130)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>43 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,258.7254901960788C392.5,258.7254901960788,392.5,440.68627450980387,784,440.68627450980387"
+                    stroke="rgb(254, 215, 134)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>44 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,264.4117647058826C392.5,264.4117647058826,392.5,287.156862745098,784,287.156862745098"
+                    stroke="rgb(254, 219, 139)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>45 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,270.0980392156865C392.5,270.0980392156865,392.5,292.84313725490193,784,292.84313725490193"
+                    stroke="rgb(254, 223, 143)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>46 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,275.78431372549045C392.5,275.78431372549045,392.5,139.3137254901961,784,139.3137254901961"
+                    stroke="rgb(254, 227, 148)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>47 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,281.4705882352944C392.5,281.4705882352944,392.5,446.3725490196078,784,446.3725490196078"
+                    stroke="rgb(254, 231, 153)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>48 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,287.1568627450983C392.5,287.1568627450983,392.5,298.52941176470586,784,298.52941176470586"
+                    stroke="rgb(254, 234, 157)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>49 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,292.8431372549022C392.5,292.8431372549022,392.5,145.00000000000003,784,145.00000000000003"
+                    stroke="rgb(254, 240, 165)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>50 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,298.52941176470614C392.5,298.52941176470614,392.5,304.2156862745098,784,304.2156862745098"
+                    stroke="rgb(253, 242, 169)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>51 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,304.21568627451006C392.5,304.21568627451006,392.5,150.68627450980395,784,150.68627450980395"
+                    stroke="rgb(253, 244, 172)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>52 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,309.901960784314C392.5,309.901960784314,392.5,156.37254901960787,784,156.37254901960787"
+                    stroke="rgb(252, 246, 174)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>53 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,315.5882352941179C392.5,315.5882352941179,392.5,162.0588235294118,784,162.0588235294118"
+                    stroke="rgb(251, 248, 175)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>54 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,321.27450980392183C392.5,321.27450980392183,392.5,309.9019607843137,784,309.9019607843137"
+                    stroke="rgb(250, 249, 176)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>55 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,326.96078431372575C392.5,326.96078431372575,392.5,167.74509803921572,784,167.74509803921572"
+                    stroke="rgb(249, 249, 176)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>56 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,332.6470588235297C392.5,332.6470588235297,392.5,452.0588235294117,784,452.0588235294117"
+                    stroke="rgb(247, 250, 175)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>57 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,338.3333333333336C392.5,338.3333333333336,392.5,315.5882352941176,784,315.5882352941176"
+                    stroke="rgb(245, 250, 174)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>58 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,344.0196078431375C392.5,344.0196078431375,392.5,457.74509803921563,784,457.74509803921563"
+                    stroke="rgb(243, 249, 172)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>59 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,349.70588235294144C392.5,349.70588235294144,392.5,463.43137254901956,784,463.43137254901956"
+                    stroke="rgb(237, 248, 167)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>60 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,355.39215686274537C392.5,355.39215686274537,392.5,469.1176470588235,784,469.1176470588235"
+                    stroke="rgb(234, 247, 165)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>61 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,361.0784313725493C392.5,361.0784313725493,392.5,474.8039215686274,784,474.8039215686274"
+                    stroke="rgb(231, 245, 163)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>62 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,366.7647058823532C392.5,366.7647058823532,392.5,173.43137254901964,784,173.43137254901964"
+                    stroke="rgb(227, 244, 161)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>63 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,372.45098039215713C392.5,372.45098039215713,392.5,179.11764705882356,784,179.11764705882356"
+                    stroke="rgb(223, 242, 160)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>64 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,378.13725490196106C392.5,378.13725490196106,392.5,184.8039215686275,784,184.8039215686275"
+                    stroke="rgb(218, 240, 159)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>65 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,383.823529411765C392.5,383.823529411765,392.5,321.27450980392155,784,321.27450980392155"
+                    stroke="rgb(213, 238, 159)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>66 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,389.5098039215689C392.5,389.5098039215689,392.5,48.333333333333336,784,48.333333333333336"
+                    stroke="rgb(208, 236, 158)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>67 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,395.1960784313728C392.5,395.1960784313728,392.5,480.4901960784313,784,480.4901960784313"
+                    stroke="rgb(203, 234, 159)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>68 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,400.88235294117675C392.5,400.88235294117675,392.5,486.17647058823525,784,486.17647058823525"
+                    stroke="rgb(198, 232, 159)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>69 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,406.56862745098067C392.5,406.56862745098067,392.5,326.96078431372547,784,326.96078431372547"
+                    stroke="rgb(186, 227, 160)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>70 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,412.2549019607846C392.5,412.2549019607846,392.5,491.86274509803917,784,491.86274509803917"
+                    stroke="rgb(180, 225, 161)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>71 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,417.9411764705885C392.5,417.9411764705885,392.5,332.6470588235294,784,332.6470588235294"
+                    stroke="rgb(174, 222, 162)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>72 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,423.62745098039244C392.5,423.62745098039244,392.5,497.5490196078431,784,497.5490196078431"
+                    stroke="rgb(167, 220, 162)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>73 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,429.31372549019636C392.5,429.31372549019636,392.5,338.3333333333333,784,338.3333333333333"
+                    stroke="rgb(161, 217, 163)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>74 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,435.0000000000003C392.5,435.0000000000003,392.5,503.235294117647,784,503.235294117647"
+                    stroke="rgb(155, 215, 163)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>75 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,440.6862745098042C392.5,440.6862745098042,392.5,508.92156862745094,784,508.92156862745094"
+                    stroke="rgb(148, 212, 164)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>76 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,446.37254901960813C392.5,446.37254901960813,392.5,54.01960784313726,784,54.01960784313726"
+                    stroke="rgb(142, 209, 164)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>77 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,452.05882352941205C392.5,452.05882352941205,392.5,514.6078431372549,784,514.6078431372549"
+                    stroke="rgb(135, 206, 165)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>78 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,457.745098039216C392.5,457.745098039216,392.5,59.70588235294118,784,59.70588235294118"
+                    stroke="rgb(129, 203, 165)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>79 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,463.4313725490199C392.5,463.4313725490199,392.5,520.2941176470588,784,520.2941176470588"
+                    stroke="rgb(116, 196, 167)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>80 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,469.1176470588238C392.5,469.1176470588238,392.5,344.01960784313724,784,344.01960784313724"
+                    stroke="rgb(110, 192, 168)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>81 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,474.80392156862774C392.5,474.80392156862774,392.5,525.9803921568626,784,525.9803921568626"
+                    stroke="rgb(104, 188, 169)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>82 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,480.49019607843167C392.5,480.49019607843167,392.5,531.6666666666665,784,531.6666666666665"
+                    stroke="rgb(98, 184, 170)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>83 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,486.1764705882356C392.5,486.1764705882356,392.5,349.70588235294116,784,349.70588235294116"
+                    stroke="rgb(92, 179, 172)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>84 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,491.8627450980395C392.5,491.8627450980395,392.5,537.3529411764704,784,537.3529411764704"
+                    stroke="rgb(87, 174, 174)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>85 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,497.54901960784343C392.5,497.54901960784343,392.5,543.0392156862742,784,543.0392156862742"
+                    stroke="rgb(82, 169, 175)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>86 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,503.23529411764736C392.5,503.23529411764736,392.5,548.7254901960781,784,548.7254901960781"
+                    stroke="rgb(78, 164, 177)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>87 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,508.9215686274513C392.5,508.9215686274513,392.5,65.3921568627451,784,65.3921568627451"
+                    stroke="rgb(74, 158, 178)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>88 → Oceania: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,514.6078431372553C392.5,514.6078431372553,392.5,554.411764705882,784,554.411764705882"
+                    stroke="rgb(71, 153, 179)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>89 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,520.2941176470591C392.5,520.2941176470591,392.5,190.4901960784314,784,190.4901960784314"
+                    stroke="rgb(67, 141, 180)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>90 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,525.980392156863C392.5,525.980392156863,392.5,560.0980392156858,784,560.0980392156858"
+                    stroke="rgb(66, 136, 180)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>91 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,531.6666666666669C392.5,531.6666666666669,392.5,355.3921568627451,784,355.3921568627451"
+                    stroke="rgb(66, 130, 180)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>92 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,537.3529411764707C392.5,537.3529411764707,392.5,361.078431372549,784,361.078431372549"
+                    stroke="rgb(67, 124, 179)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>93 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,543.0392156862746C392.5,543.0392156862746,392.5,366.7647058823529,784,366.7647058823529"
+                    stroke="rgb(69, 119, 178)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>94 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,548.7254901960785C392.5,548.7254901960785,392.5,196.17647058823533,784,196.17647058823533"
+                    stroke="rgb(71, 113, 176)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>95 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,554.4117647058823C392.5,554.4117647058823,392.5,372.45098039215685,784,372.45098039215685"
+                    stroke="rgb(74, 107, 174)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>96 → Americas: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,560.0980392156862C392.5,560.0980392156862,392.5,201.86274509803926,784,201.86274509803926"
+                    stroke="rgb(78, 102, 172)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>97 → Asia: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,565.78431372549C392.5,565.78431372549,392.5,565.7843137254897,784,565.7843137254897"
+                    stroke="rgb(81, 96, 170)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>98 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,571.4705882352939C392.5,571.4705882352939,392.5,571.4705882352936,784,571.4705882352936"
+                    stroke="rgb(85, 90, 167)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>99 → Europe: 1</title>
+            </g>
+            <g style="mix-blend-mode: multiply">
+                <path
+                    d="M1,577.1568627450978C392.5,577.1568627450978,392.5,577.1568627450974,784,577.1568627450974"
+                    stroke="rgb(169, 13, 69)"
+                    stroke-width="5.686274509803922"
+                />
+                <title>100 → Europe: 1</title>
+            </g>
+        </g>
+        <g>
+            <text x="5" y="2.843137254902302" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                />
+            </text>
+            <text x="5" y="8.529411764706223" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                />
+            </text>
+            <text x="5" y="14.215686274510148" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    1
+                </tspan>
+            </text>
+            <text x="5" y="19.90196078431407" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    2
+                </tspan>
+            </text>
+            <text x="5" y="25.588235294117993" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    3
+                </tspan>
+            </text>
+            <text x="5" y="31.274509803921916" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    4
+                </tspan>
+            </text>
+            <text x="5" y="36.96078431372584" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    5
+                </tspan>
+            </text>
+            <text x="5" y="42.64705882352976" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    6
+                </tspan>
+            </text>
+            <text x="5" y="48.333333333333684" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    7
+                </tspan>
+            </text>
+            <text x="5" y="54.01960784313761" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    8
+                </tspan>
+            </text>
+            <text x="5" y="59.70588235294153" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    9
+                </tspan>
+            </text>
+            <text x="5" y="65.39215686274545" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    10
+                </tspan>
+            </text>
+            <text x="5" y="71.07843137254937" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    11
+                </tspan>
+            </text>
+            <text x="5" y="76.7647058823533" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    12
+                </tspan>
+            </text>
+            <text x="5" y="82.45098039215722" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    13
+                </tspan>
+            </text>
+            <text x="5" y="88.13725490196114" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    14
+                </tspan>
+            </text>
+            <text x="5" y="93.82352941176507" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    15
+                </tspan>
+            </text>
+            <text x="5" y="99.50980392156899" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    16
+                </tspan>
+            </text>
+            <text x="5" y="105.19607843137291" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    17
+                </tspan>
+            </text>
+            <text x="5" y="110.88235294117683" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    18
+                </tspan>
+            </text>
+            <text x="5" y="116.56862745098076" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    19
+                </tspan>
+            </text>
+            <text x="5" y="122.25490196078468" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    20
+                </tspan>
+            </text>
+            <text x="5" y="127.94117647058859" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    21
+                </tspan>
+            </text>
+            <text x="5" y="133.6274509803925" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    22
+                </tspan>
+            </text>
+            <text x="5" y="139.31372549019642" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    23
+                </tspan>
+            </text>
+            <text x="5" y="145.00000000000034" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    24
+                </tspan>
+            </text>
+            <text x="5" y="150.68627450980426" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    25
+                </tspan>
+            </text>
+            <text x="5" y="156.3725490196082" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    26
+                </tspan>
+            </text>
+            <text x="5" y="162.0588235294121" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    27
+                </tspan>
+            </text>
+            <text x="5" y="167.74509803921603" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    28
+                </tspan>
+            </text>
+            <text x="5" y="173.43137254901995" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    29
+                </tspan>
+            </text>
+            <text x="5" y="179.11764705882388" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    30
+                </tspan>
+            </text>
+            <text x="5" y="184.8039215686278" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    31
+                </tspan>
+            </text>
+            <text x="5" y="190.49019607843172" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    32
+                </tspan>
+            </text>
+            <text x="5" y="196.17647058823565" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    33
+                </tspan>
+            </text>
+            <text x="5" y="201.86274509803957" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    34
+                </tspan>
+            </text>
+            <text x="5" y="207.5490196078435" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    35
+                </tspan>
+            </text>
+            <text x="5" y="213.2352941176474" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    36
+                </tspan>
+            </text>
+            <text x="5" y="218.92156862745134" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    37
+                </tspan>
+            </text>
+            <text x="5" y="224.60784313725526" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    38
+                </tspan>
+            </text>
+            <text x="5" y="230.29411764705918" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    39
+                </tspan>
+            </text>
+            <text x="5" y="235.9803921568631" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    40
+                </tspan>
+            </text>
+            <text x="5" y="241.66666666666703" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    41
+                </tspan>
+            </text>
+            <text x="5" y="247.35294117647095" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    42
+                </tspan>
+            </text>
+            <text x="5" y="253.03921568627487" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    43
+                </tspan>
+            </text>
+            <text x="5" y="258.72549019607874" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    44
+                </tspan>
+            </text>
+            <text x="5" y="264.41176470588266" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    45
+                </tspan>
+            </text>
+            <text x="5" y="270.0980392156865" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    46
+                </tspan>
+            </text>
+            <text x="5" y="275.7843137254905" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    47
+                </tspan>
+            </text>
+            <text x="5" y="281.4705882352944" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    48
+                </tspan>
+            </text>
+            <text x="5" y="287.15686274509835" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    49
+                </tspan>
+            </text>
+            <text x="5" y="292.8431372549022" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    50
+                </tspan>
+            </text>
+            <text x="5" y="298.5294117647062" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    51
+                </tspan>
+            </text>
+            <text x="5" y="304.21568627451006" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    52
+                </tspan>
+            </text>
+            <text x="5" y="309.90196078431404" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    53
+                </tspan>
+            </text>
+            <text x="5" y="315.5882352941179" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    54
+                </tspan>
+            </text>
+            <text x="5" y="321.2745098039219" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    55
+                </tspan>
+            </text>
+            <text x="5" y="326.96078431372575" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    56
+                </tspan>
+            </text>
+            <text x="5" y="332.64705882352973" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    57
+                </tspan>
+            </text>
+            <text x="5" y="338.3333333333336" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    58
+                </tspan>
+            </text>
+            <text x="5" y="344.0196078431376" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    59
+                </tspan>
+            </text>
+            <text x="5" y="349.70588235294144" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    60
+                </tspan>
+            </text>
+            <text x="5" y="355.3921568627454" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    61
+                </tspan>
+            </text>
+            <text x="5" y="361.0784313725493" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    62
+                </tspan>
+            </text>
+            <text x="5" y="366.76470588235327" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    63
+                </tspan>
+            </text>
+            <text x="5" y="372.45098039215713" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    64
+                </tspan>
+            </text>
+            <text x="5" y="378.1372549019611" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    65
+                </tspan>
+            </text>
+            <text x="5" y="383.823529411765" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    66
+                </tspan>
+            </text>
+            <text x="5" y="389.50980392156896" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    67
+                </tspan>
+            </text>
+            <text x="5" y="395.1960784313728" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    68
+                </tspan>
+            </text>
+            <text x="5" y="400.8823529411768" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    69
+                </tspan>
+            </text>
+            <text x="5" y="406.56862745098067" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    70
+                </tspan>
+            </text>
+            <text x="5" y="412.25490196078465" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    71
+                </tspan>
+            </text>
+            <text x="5" y="417.9411764705885" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    72
+                </tspan>
+            </text>
+            <text x="5" y="423.6274509803925" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    73
+                </tspan>
+            </text>
+            <text x="5" y="429.31372549019636" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    74
+                </tspan>
+            </text>
+            <text x="5" y="435.00000000000034" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    75
+                </tspan>
+            </text>
+            <text x="5" y="440.6862745098042" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    76
+                </tspan>
+            </text>
+            <text x="5" y="446.3725490196082" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    77
+                </tspan>
+            </text>
+            <text x="5" y="452.05882352941205" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    78
+                </tspan>
+            </text>
+            <text x="5" y="457.74509803921603" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    79
+                </tspan>
+            </text>
+            <text x="5" y="463.4313725490199" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    80
+                </tspan>
+            </text>
+            <text x="5" y="469.1176470588239" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    81
+                </tspan>
+            </text>
+            <text x="5" y="474.80392156862774" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    82
+                </tspan>
+            </text>
+            <text x="5" y="480.4901960784317" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    83
+                </tspan>
+            </text>
+            <text x="5" y="486.1764705882356" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    84
+                </tspan>
+            </text>
+            <text x="5" y="491.86274509803957" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    85
+                </tspan>
+            </text>
+            <text x="5" y="497.54901960784343" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    86
+                </tspan>
+            </text>
+            <text x="5" y="503.2352941176474" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    87
+                </tspan>
+            </text>
+            <text x="5" y="508.9215686274513" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    88
+                </tspan>
+            </text>
+            <text x="5" y="514.6078431372553" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    89
+                </tspan>
+            </text>
+            <text x="5" y="520.294117647059" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    90
+                </tspan>
+            </text>
+            <text x="5" y="525.980392156863" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    91
+                </tspan>
+            </text>
+            <text x="5" y="531.6666666666667" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    92
+                </tspan>
+            </text>
+            <text x="5" y="537.3529411764707" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    93
+                </tspan>
+            </text>
+            <text x="5" y="543.0392156862745" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    94
+                </tspan>
+            </text>
+            <text x="5" y="548.7254901960785" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    95
+                </tspan>
+            </text>
+            <text x="5" y="554.4117647058822" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    96
+                </tspan>
+            </text>
+            <text x="5" y="560.0980392156862" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    97
+                </tspan>
+            </text>
+            <text x="5" y="565.7843137254899" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    98
+                </tspan>
+            </text>
+            <text x="5" y="571.4705882352939" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    99
+                </tspan>
+            </text>
+            <text x="5" y="577.1568627450977" text-anchor="start">
+                <tspan
+                    alignment-baseline="middle"
+                    x="5"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    100
+                </tspan>
+            </text>
+            <text x="780" y="5.686274509803922" text-anchor="end">
+                <tspan
+                    alignment-baseline="middle"
+                    x="780"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                />
+            </text>
+            <text x="780" y="39.80392156862746" text-anchor="end">
+                <tspan
+                    alignment-baseline="middle"
+                    x="780"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    Oceania
+                </tspan>
+            </text>
+            <text x="780" y="136.47058823529412" text-anchor="end">
+                <tspan
+                    alignment-baseline="middle"
+                    x="780"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    Asia
+                </tspan>
+            </text>
+            <text x="780" y="290" text-anchor="end">
+                <tspan
+                    alignment-baseline="middle"
+                    x="780"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    Americas
+                </tspan>
+            </text>
+            <text x="780" y="477.6470588235294" text-anchor="end">
+                <tspan
+                    alignment-baseline="middle"
+                    x="780"
+                    style="font-family: Arial, sans-serif; font-size: 10px; fill: black; font-weight: bold"
+                >
+                    Europe
+                </tspan>
+            </text>
+        </g>
+        <g>
+            <text
+                x="0.5"
+                y="-3.999999999999659"
+                text-anchor="middle"
+                style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold"
+            >
+                2027 QS World University Rankings
+            </text>
+            <text
+                x="784.5"
+                y="-4"
+                text-anchor="middle"
+                style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold"
+            >
+                Source: QS World University Rankings 2027, published by QS on TopUniversities.com.
+                https://www.topuniversities.com/data-copyright
+            </text>
+        </g>
+    </g>
+</svg>
